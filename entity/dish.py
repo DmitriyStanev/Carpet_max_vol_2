@@ -1,19 +1,26 @@
 from entity.product import Product
 
 class Dish:
+    next_id = 0
 
-    all_dishes = []
+    @classmethod
+    def get_next_id(cls):
+        cls.next_id += 1
+        return cls.next_id
+
+    all_dishes = set()
 
     def __init__(self, dish_name, price, category, recipe):
+        self.id = self.get_next_id()
         self.dish_name = dish_name
         self.price = price
         self.category = category
         self.recipe = recipe
-        self.all_dishes.append(self)
+        self.all_dishes.add(self)
         self.products_in_recipe = []
 
     def __str__(self):
-        return f"| {self.dish_name:<20.20s} | {self.price:<6.2f} | {self.category:<10.10s} |"
+        return f"ID: {self.id} | {self.dish_name:} | {self.price:} | {self.category:} |"
 
     def fullname(self):
         return '{} {} - price {} $ '.format(self.dish_name, self.price)
@@ -42,21 +49,3 @@ class Dish:
         for item, quantity in self.recipe.items():
             dish_price += quantity * Product.product_price_list[item]
         return dish_price
-
-
-# if __name__ == '__main__':
-#
-#     burrata = Dish('Burrata', 17.99, 'SALAD', {'Tomatoes': 0.400, 'Basil': 0.020, 'Burrata': 0.200, 'Pesto': 0.030})
-#     mixta = Dish('Mixta', 12.99, 'SALAD', {'Avocado': 0.200, 'Mix fresh salads': 0.100, 'Pine nuts': 0.050,
-#                                            'Citrus dressing': 0.050})
-#
-#     # print(mixta.fullname())
-#     # mixta.get_recipe()
-#
-#     def print_product_list(list):
-#         for item in list:
-#             print('{}: {} {}.'.format(item.name, Product.products_db[item.name], item.measure_unit))
-#
-#
-#
-#     print_product_list(Product.product_list)
