@@ -1,8 +1,0 @@
-["Tomatoes", 8]
-["Burrata", 12]
-["Pesto", 4]
-["Basil", 20]
-["Avocado", 20]
-["Mix fresh salads", 20]
-["Pine nuts", 4]
-["Citrus dressing", 10]
