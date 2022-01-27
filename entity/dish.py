@@ -25,9 +25,6 @@ class Dish:
     def fullname(self):
         return '{} {} - price {} $ '.format(self.dish_name, self.price)
 
-    def get_recipe(self):
-        return self.recipe
-
     def print_recipe(self):
         print('{} {} : {} $'.format(self.category, self.dish_name, self.price))
         print('Products used: ')
