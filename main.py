@@ -4,7 +4,6 @@ from dao.product_repository import ProductRepository
 from dao.dish_repository import DishRepository
 
 
-
 if __name__ == "__main__":
     """Creating products for the menu"""
 
@@ -37,9 +36,9 @@ if __name__ == "__main__":
 
     """Creating Salads"""
     burrata = Dish('Burrata', 17.99, 'SALAD', {'Tomatoes': 0.500, 'Basil': 0.020, 'Burrata': 0.100, 'Pesto': 0.030})
-    mixta = Dish('Mixta', 12.99, 'SALAD', {'Avocado': 0.200, 'Mix fresh salads': 0.100, 'Pine nuts': 0.050, \
+    mixta = Dish('Mixta', 12.99, 'SALAD', {'Avocado': 0.200, 'Mix fresh salads': 0.100, 'Pine nuts': 0.050,
                                            'Citrus dressing': 0.050})
-    guacamole = Dish('Guacamole', 17.99, 'SALAD', {'Tomatoes': 0.050, 'Avocado': 0.200, 'Garlic': 0.010, \
+    guacamole = Dish('Guacamole', 17.99, 'SALAD', {'Tomatoes': 0.050, 'Avocado': 0.200, 'Garlic': 0.010,
                                                    'Olive oil': 0.050})
 
     dishes = (burrata, mixta, guacamole)
@@ -48,8 +47,12 @@ if __name__ == "__main__":
     for dish in dishes:
         dish_repo.create(dish)
 
-    for item in dish_repo.find_all():
-        print(item)
+    # for item in dish_repo.find_all():
+    #     print(item)
 
     print(dish_repo.get_price(burrata))
 
+    dish_repo.make_dish(burrata)
+
+    for item, quantity in products_repo.products_db.items():
+        print(f"Product: {item} | Quantity: {quantity}")

@@ -1,5 +1,6 @@
 from dao.repository import Repository
 from entity.product import Product
+import json
 
 
 class ProductRepository(Repository):
@@ -12,6 +13,12 @@ class ProductRepository(Repository):
             self.products_db[product.name] = quantity
 
     def print_product_db(self):
-        for k, v in self.products_db.items():
-            return f"Product: {k} | Quantity: {v}"
+        for item, quantity in self.products_db.items():
+            return f"Product: {item} | Quantity: {quantity}"
+
+    def rewrite_db(self):
+        with open("products_db.txt", "w") as f:
+            for item in self.products_db.items():
+                f.write(json.dumps(item))
+                f.write('\n')
 
