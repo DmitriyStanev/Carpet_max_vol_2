@@ -14,7 +14,7 @@ class ProductRepository(Repository):
 
     def print_product_db(self):
         for item, quantity in self.products_db.items():
-            return f"Product: {item} | Quantity: {quantity}"
+            print(f"Product: {item} | Quantity: {quantity}")
 
     def rewrite_db(self):
         with open("products_db.txt", "w") as f:

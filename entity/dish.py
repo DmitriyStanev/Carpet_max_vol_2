@@ -1,6 +1,7 @@
 from entity.product import Product
 from dao.product_repository import ProductRepository
 
+
 class Dish:
     next_id = 0
 
