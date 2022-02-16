@@ -1,0 +1,27 @@
+[
+    {
+        "id": "c79cb0aa-8f6b-11ec-9abc-1c99579ee142",
+        "name": "Olive oil",
+        "delivery_price": 30.0,
+        "measure_unit": "lt"
+    },
+    {
+        "id": "c79cb0ab-8f6b-11ec-8e2e-1c99579ee142",
+        "name": "Tomatoes",
+        "delivery_price": 3,
+        "measure_unit": "kg"
+    },
+    {
+        "id": "c79cb0ac-8f6b-11ec-9ac5-1c99579ee142",
+        "name": "Burrata",
+        "delivery_price": 30,
+        "measure_unit": "kg"
+    },
+    {
+        "id": "c79cb0ad-8f6b-11ec-898c-1c99579ee142",
+        "name": "Pesto",
+        "delivery_price": 7777,
+        "measure_unit": "kg",
+        "quantity": null
+    }
+]

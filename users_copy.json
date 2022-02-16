@@ -1,0 +1,264 @@
+[
+    {
+        "id": "8d03512f-8aad-11ec-94f1-1c99579ee142",
+        "name": "Default",
+        "last_name": "Admin",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "admin",
+        "role": "ADMIN"
+    },
+    {
+        "id": "8d035130-8aad-11ec-a804-1c99579ee142",
+        "name": "qwert",
+        "last_name": "qwert",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "qwert",
+        "role": "qwert"
+    },
+    {
+        "id": "8d035130-8aad-11ec-a844-1c99579ee142",
+        "name": "asd",
+        "last_name": "asd",
+        "age": "21",
+        "phone_number": "0897776645",
+        "log_password": "asd",
+        "role": "asd"
+    }
+     "================================================="
+    {
+        "id": "af08c4a4-8e97-11ec-bee7-1c99579ee142",
+        "name": "Default",
+        "last_name": "Admin",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "admin",
+        "role": "ADMIN"
+    },
+    {
+        "id": "af08eba3-8e97-11ec-adf7-1c99579ee142",
+        "name": "qwert",
+        "last_name": "qwert",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "qwert",
+        "role": "qwert"
+    },
+    {
+        "id": "af08eba4-8e97-11ec-aac5-1c99579ee142",
+        "name": "asd",
+        "last_name": "asd",
+        "age": "21",
+        "phone_number": "0897776645",
+        "log_password": "asd",
+        "role": "asd"
+    },
+    {
+        "id": "af08eba5-8e97-11ec-a55b-1c99579ee142",
+        "name": "qwe",
+        "last_name": "qwe",
+        "age": "13",
+        "phone_number": "qew",
+        "log_password": "qwe",
+        "role": "qwe"
+    },
+    {
+        "id": "af08eba6-8e97-11ec-803a-1c99579ee142",
+        "name": "tre",
+        "last_name": "tre",
+        "age": "345",
+        "phone_number": "tre",
+        "log_password": "tre",
+        "role": "tre"
+    },
+    {
+        "id": "af08eba7-8e97-11ec-b4fb-1c99579ee142",
+        "name": "Default",
+        "last_name": "Admin",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "admin",
+        "role": "ADMIN"
+    },
+    {
+        "id": "af08eba8-8e97-11ec-b79c-1c99579ee142",
+        "name": "qwert",
+        "last_name": "qwert",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "qwert",
+        "role": "qwert"
+    },
+    {
+        "id": "af08eba9-8e97-11ec-8e2a-1c99579ee142",
+        "name": "asd",
+        "last_name": "asd",
+        "age": "21",
+        "phone_number": "0897776645",
+        "log_password": "asd",
+        "role": "asd"
+    },
+    {
+        "id": "af08ebaa-8e97-11ec-bb43-1c99579ee142",
+        "name": "qwe",
+        "last_name": "qwe",
+        "age": "13",
+        "phone_number": "qew",
+        "log_password": "qwe",
+        "role": "qwe"
+    },
+    {
+        "id": "af08ebab-8e97-11ec-bf84-1c99579ee142",
+        "name": "tre",
+        "last_name": "tre",
+        "age": "345",
+        "phone_number": "tre",
+        "log_password": "tre",
+        "role": "tre"
+    },
+    {
+        "id": "af08ebac-8e97-11ec-8273-1c99579ee142",
+        "name": "Vasiliy",
+        "last_name": "Rogov",
+        "age": 34,
+        "phone_number": "0980000000",
+        "log_password": "4444",
+        "role": "WAITER"
+    },
+    {
+        "id": "af08ebad-8e97-11ec-81b1-1c99579ee142",
+        "name": "Andrey",
+        "last_name": "Larin",
+        "age": 46,
+        "phone_number": "0984444444",
+        "log_password": "131313",
+        "role": "MANAGER"
+    },
+    {
+        "id": "af08ebae-8e97-11ec-a9ec-1c99579ee142",
+        "name": "Default",
+        "last_name": "Admin",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "admin",
+        "role": "ADMIN"
+    },
+    {
+        "id": "af08ebaf-8e97-11ec-929a-1c99579ee142",
+        "name": "qwert",
+        "last_name": "qwert",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "qwert",
+        "role": "qwert"
+    },
+    {
+        "id": "af08ebb0-8e97-11ec-9797-1c99579ee142",
+        "name": "asd",
+        "last_name": "asd",
+        "age": "21",
+        "phone_number": "0897776645",
+        "log_password": "asd",
+        "role": "asd"
+    },
+    {
+        "id": "af08ebb1-8e97-11ec-9f51-1c99579ee142",
+        "name": "qwe",
+        "last_name": "qwe",
+        "age": "13",
+        "phone_number": "qew",
+        "log_password": "qwe",
+        "role": "qwe"
+    },
+    {
+        "id": "af08ebb2-8e97-11ec-9857-1c99579ee142",
+        "name": "tre",
+        "last_name": "tre",
+        "age": "345",
+        "phone_number": "tre",
+        "log_password": "tre",
+        "role": "tre"
+    },
+    {
+        "id": "af08ebb3-8e97-11ec-b8dc-1c99579ee142",
+        "name": "Default",
+        "last_name": "Admin",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "admin",
+        "role": "ADMIN"
+    },
+    {
+        "id": "af08ebb4-8e97-11ec-aaf6-1c99579ee142",
+        "name": "qwert",
+        "last_name": "qwert",
+        "age": "45",
+        "phone_number": "0897776665",
+        "log_password": "qwert",
+        "role": "qwert"
+    },
+    {
+        "id": "af08ebb5-8e97-11ec-ab78-1c99579ee142",
+        "name": "asd",
+        "last_name": "asd",
+        "age": "21",
+        "phone_number": "0897776645",
+        "log_password": "asd",
+        "role": "asd"
+    },
+    {
+        "id": "af08ebb6-8e97-11ec-8fa1-1c99579ee142",
+        "name": "qwe",
+        "last_name": "qwe",
+        "age": "13",
+        "phone_number": "qew",
+        "log_password": "qwe",
+        "role": "qwe"
+    },
+    {
+        "id": "af08ebb7-8e97-11ec-99d6-1c99579ee142",
+        "name": "tre",
+        "last_name": "tre",
+        "age": "345",
+        "phone_number": "tre",
+        "log_password": "tre",
+        "role": "tre"
+    },
+    {
+        "id": "af08ebb8-8e97-11ec-8dd9-1c99579ee142",
+        "name": "Vasiliy",
+        "last_name": "Rogov",
+        "age": 34,
+        "phone_number": "0980000000",
+        "log_password": "4444",
+        "role": "WAITER"
+    },
+    {
+        "id": "af08ebb9-8e97-11ec-a8ba-1c99579ee142",
+        "name": "Andrey",
+        "last_name": "Larin",
+        "age": 46,
+        "phone_number": "0984444444",
+        "log_password": "131313",
+        "role": "MANAGER"
+    },
+    {
+        "id": "af08ebba-8e97-11ec-9d1b-1c99579ee142",
+        "name": "Vasiliy",
+        "last_name": "Rogov",
+        "age": 34,
+        "phone_number": "0980000000",
+        "log_password": "4444",
+        "role": "WAITER"
+    },
+    {
+        "id": "af08ebbb-8e97-11ec-a9ec-1c99579ee142",
+        "name": "Andrey",
+        "last_name": "Larin",
+        "age": 46,
+        "phone_number": "0984444444",
+        "log_password": "131313",
+        "role": "MANAGER"
+    }
+]
